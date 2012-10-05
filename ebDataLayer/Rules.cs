@@ -36,6 +36,9 @@ namespace org.iringtools.adapter.datalayer.eb
     [XmlElement("create")]
     public bool Create { get; set; }
 
+    [XmlElement("Delete")]
+    public bool Delete { get; set; }
+
     [XmlElement("createtemplate", IsNullable = true)]
     public string CreateTemplate { get; set; }
   }
